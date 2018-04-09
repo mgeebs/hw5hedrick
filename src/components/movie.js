@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+//support routing by creating a new component
+
 class Movie extends Component {
     constructor(props) {
         super(props);

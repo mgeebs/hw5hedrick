@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MovieHeader from './components/movieheader';
 import MovieList from './components/movielist';
 import Movie from './components/movie';
 import {HashRouter,Route} from 'react-router-dom';
-import './App.css';
+
+//add routing configuration
 
 class App extends Component {
     state = {title: null};
@@ -15,21 +15,20 @@ class App extends Component {
             title: e
         });
     }
-
-  render() {
-    return (
-      <div className="App">
-          <HashRouter>
-              <div>
-                 <MovieHeader subTitle={this.state.title}/>
-                  <Route exact path="/" render={()=><MovieList onTitleChange={this.handleOnTitleChange} />}/>
-                  <Route path="/movielist" render={()=><MovieList onTitleChange={this.handleOnTitleChange} />}/>
-                  <Route path="/movie" render={()=><Movie onTitleChange={this.handleOnTitleChange}/>}/>
-              </div>
-          </HashRouter>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <HashRouter>
+                    <div>
+                        <MovieHeader subTitle={this.state.title}/>
+                        <Route exact path="/" render={()=><MovieList onTitleChange={this.handleOnTitleChange} />}/>
+                        <Route path="/movielist" render={()=><MovieList onTitleChange={this.handleOnTitleChange} />}/>
+                        <Route path="/movie" render={()=><Movie onTitleChange={this.handleOnTitleChange}/>}/>
+                    </div>
+                </HashRouter>
+            </div>
+        );
+    }
 }
 
 export default App;
