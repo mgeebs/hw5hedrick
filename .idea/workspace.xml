@@ -109,8 +109,8 @@
       <file leaf-file-name="movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="171">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -141,6 +141,7 @@
     <findStrings>
       <find>movie det</find>
       <find>actor</find>
+      <find>map</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -296,12 +297,12 @@
       <workItem from="1523487645667" duration="4364000" />
       <workItem from="1523918675390" duration="30000" />
       <workItem from="1523919449766" duration="1401000" />
-      <workItem from="1523923177392" duration="9134000" />
+      <workItem from="1523923177392" duration="9760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20226000" />
+    <option name="totallyTimeSpent" value="20852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="52" width="1333" height="808" extended-state="0" />
@@ -764,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="171">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
