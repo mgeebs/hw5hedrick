@@ -21,7 +21,7 @@ class MovieHeader extends Component {
                         </Navbar.Brand>
                     </Navbar.Header>
                     <Nav>
-                        <LinkContainer to="/movielist">
+                        <LinkContainer to="/movies">
                             <NavItem eventKey={1} disabled={!this.props.loggedIn}>Movie List </NavItem>
                         </LinkContainer>
                         <LinkContainer to={'/movie/'+ (this.props.selectedMovie ? this.props.selectedMovie._id : '')}>
