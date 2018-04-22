@@ -19,8 +19,8 @@ class App extends Component {
                     <div>
                         <MovieHeader />
                         <Route exact path="/" render={()=><MovieList />}/>
-                        <Route path="/movies" render={()=><MovieList />}/>
-                        <Route path="/movies/:movieId" render={()=><Movie />}/>
+                        <Route exact path="/movies" render={()=><MovieList />}/>
+                        <Route exact path="/movies/:movieId" render={()=><Movie />}/>
                         <Route path="/signin" render={()=><Authentication />}/>
                         <Route path="/signup" render={()=><Register />}/>
                     </div>
